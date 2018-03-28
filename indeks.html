@@ -1,0 +1,28 @@
+<html>
+<head>
+
+<title>Mees ja Koer secure login</title>
+</head>
+<script type="text/javascript">
+function display(form){
+if (form.username.value=="sala") { 
+		if (form.password.value=="koht") {              
+										location="arved/salakoht.html" 
+											} else {
+													alert("Invalid Password")
+													}
+								} else {  alert("Invalid Username")
+										}
+						}
+			</script>			
+<body >
+
+<form >
+<input type="text" name="username" /><br><br>
+<input type="password" name="password"/><br><br>
+<input type="button" value="->" onClick="display(this.form)"/>
+
+</form>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+<html>
+<head>
+
+<title>Mees ja Koer secure login</title>
+</head>
+<script type="text/javascript">
+function display(form){
+if (form.username.value=="suve") { 
+		if (form.password.value=="ylikool") {              
+										location="arved/index.html" 
+											} else {
+													alert("Invalid Password")
+													}
+								} else {  alert("Invalid Username")
+										}
+						}
+			</script>			
+<body >
+
+<form >
+<input type="text" name="username" /><br><br>
+<input type="password" name="password"/><br><br>
+<input type="button" value="->" onClick="display(this.form)"/>
+
+</form>
+
+</body>
+</html>
